@@ -19,6 +19,6 @@ Server code came from [GraphQL+NodeJS](https://github.com/howtographql/graphql-j
 
 Make sure that you deployed your prisma ahead of this by `yarn prisma deploy` or `prisma deploy` if you have global prisms-cli
 
-6. copy the HTTP value and paste it on __PRISMA_ENDPOINT__ placeholder in `server/src/index.js` in key `endpoint`
+6. copy the HTTP value and paste it on `__PRISMA_ENDPOINT__` placeholder in `server/src/index.js` in key `endpoint`
 
 If you forgot the values of your deployed prisma just type in terminal `yarn prisma info`
